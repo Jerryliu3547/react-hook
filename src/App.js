@@ -4,6 +4,7 @@ import React from'react';
 import StateHook from './hooks/StateHook';
 import EffectHook from './hooks/EffectHook';
 import MemoHook from './hooks/MemoHook';
+import RefHook from './hooks/RefHook';
 
 function App() {
   
@@ -13,7 +14,7 @@ function App() {
       <StateHook />
       <EffectHook />
       <MemoHook />
-
+      <RefHook />
 
     </div>
   );
