@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from'react';
 import StateHook from './hooks/StateHook';
@@ -6,6 +5,8 @@ import EffectHook from './hooks/EffectHook';
 import MemoHook from './hooks/MemoHook';
 import RefHook from './hooks/RefHook';
 import ContextHook from './hooks/ContextHook/ContextHook';
+import ReducerHook from './hooks/ReducerHook';
+import ReducerHookComplex from './hooks/ReducerHookComplex';
 
 function App() {
   
@@ -17,6 +18,8 @@ function App() {
       <MemoHook />
       <RefHook />
       <ContextHook />
+      <ReducerHook />
+      <ReducerHookComplex />
 
     </div>
   );
